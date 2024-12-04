@@ -16,7 +16,7 @@
         }
         int diff = hor & -hor; 
         int[] res = new int[2];
-        foreach (int x in nums)
+        foreach (int x in nums) // сбор 2 нужных чисел в массив
         {
             if ((x & diff) == 0)
             {
