@@ -14,7 +14,7 @@
         {
             hor ^= x;
         }
-        int diff = hor & -hor; //поиск того что служит разделением
+        int diff = hor & -hor; 
         int[] res = new int[2];
         foreach (int x in nums)
         {
